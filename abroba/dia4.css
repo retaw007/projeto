@@ -1,0 +1,42 @@
+body { 
+    background: url(/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    
+}
+
+#container {
+    display: block;
+   border: 1px solid red;
+   margin: auto;
+   
+}
+
+#profile { 
+    text-align: center;
+}
+
+#profile img {
+    
+    width: 112px;
+
+
+}
+
+#profile p {
+font-weight: 500;
+line-height: 24px;
+}
+
+/* tbm da para alinhar 
+
+Com o Id pai: #profile (sem o img) {
+    text-align: center;
+}
+se tiver com display: block; n irá aceitar
+
+display: block;
+margin: auto;
